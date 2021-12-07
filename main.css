@@ -3,6 +3,7 @@
     --clr-darkergreener-shade: #343434;
     --clr-greener-shade: #4b5447;
     --clr-cremer-shade: #bcbbad;
+    --clr-gentext-shade: #fffdfa;
 
     --ff-sub: 'DM Serif Text', serif;
     --ff-main: 'Poppins', sans-serif;
@@ -35,4 +36,28 @@ h3 {
     font-family: var(--ff-sub);
     font-weight: 900;
     line-height: 1;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.bg-dark {
+    color: var(--clr-cremer-shade);
+    background-color: var(--clr-darker-shade);
+}
+
+.bg-darkergreen {
+    color: var(--clr-gentext-shade);
+    background-color: var(--clr-darkergreener-shade);
+}
+
+.bg-greener {
+    color: var(--clr-gentext-shade);
+    background-color: var(--clr-greener-shade);
+}
+
+.bg-darkergreen h2,
+.bg-greener h2 {
+    color: var(--clr-cremer-shade);
 }
