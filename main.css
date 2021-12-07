@@ -38,8 +38,17 @@ h3 {
     line-height: 1;
 }
 
+.text-center {
+    text-align: center;
+}
+
 section {
     padding: 3rem 0;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
 }
 
 .bg-dark {
