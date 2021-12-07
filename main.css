@@ -1,0 +1,9 @@
+:root {
+    --clr-darker-shade: #2d2c2a;
+    --clr-darkergreener-shade: #343434;
+    --clr-greener-shade: #4b5447;
+    --clr-cremer-shade: #bcbbad;
+
+    --ff-main: 'DM Serif Text', serif;
+    --ff-sub: 'Poppins', sans-serif;
+}
