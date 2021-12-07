@@ -4,6 +4,35 @@
     --clr-greener-shade: #4b5447;
     --clr-cremer-shade: #bcbbad;
 
-    --ff-main: 'DM Serif Text', serif;
-    --ff-sub: 'Poppins', sans-serif;
+    --ff-sub: 'DM Serif Text', serif;
+    --ff-main: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-sub);
+    font-weight: 900;
+    line-height: 1;
 }
